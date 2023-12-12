@@ -14,7 +14,7 @@ I use the hyperparameter 'max_depth' and set it to 40
 - max_depth controls the maximum depth of each tree in the forest
 
 
-...................
+
 Import Libraries :
 - 'import sklearn' : to use sklearn library
 - 'from sklearn.ensemble import RandomForestClassifier' : to import RandomForestClassifier class
@@ -28,8 +28,6 @@ Training the dataset :
 
 Making Predictions :
 - 'y_pred=rf_tumor.predict(X_test)' 
-................................
-
 
 
 Motivation
