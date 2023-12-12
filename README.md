@@ -11,11 +11,14 @@ Then we load data points from our external file named 'Training' in the same fil
 After that, we divide the datasets into two parts, the training datasets and the test datasets
 
 Now we can use a model for tumor classification :
+
 Instantiate Random Forest Classifier :
 - 'rf_tumor = RandomForestClassifier(max_depth=40)' : creates an instance of the RandomForestClassifier with a hyperparameter max_depth = 40
 - max_depth controls the maximum depth of each tree in the forest
+
 Training the dataset :
 - 'rf_tumor.fit(X_train, y_train)'
+
 Making Predictions :
 - 'y_pred=rf_tumor.predict(X_test)' 
 
