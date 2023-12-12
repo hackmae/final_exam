@@ -1,6 +1,6 @@
 # final_exam Mae Benaroche (50231642)
 
-##### Explain what you do in your project <h6>  
+## Explain what you do in your project <h2>  
 
 Explain the training dataset
 
