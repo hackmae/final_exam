@@ -30,7 +30,7 @@ The training dataset is composed of images taken in a lab to see if someone has 
 Each data has one of the 4 differents states of tumor : glioma tumor, meningioma tumor, pituitary tumor and no tumor  
 
 ## Explain the algorithm you choose <h4>
-I chose RandomForestClassifier 
+I chose RandomForestClassifier because I have the greatest accuracy with this algorithm, the parameters are pretty straightforward and it avoids overfitting problem.
 - 'rf_tumor = RandomForestClassifier(max_depth=40)' : creates an instance of the RandomForestClassifier with a hyperparameter max_depth = 40
 
 
