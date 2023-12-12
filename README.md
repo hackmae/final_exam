@@ -5,7 +5,9 @@ In this project we need to find the best model to fit training data points about
 
 First we need to import the libraries, packages we need to use in our project 
 - sklearn, numpy, matplotlib...
+
 Then we load data points from our external file named 'Training' in the same file as this jupyternotebook file in a folder named 'tumor_dataset'
+
 After that, we divide the datasets into two parts, the training datasets and the test datasets
 
 Now we can use a model for tumor classification :
