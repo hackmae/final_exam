@@ -22,9 +22,12 @@ Training the dataset :
 Making Predictions :
 - 'y_pred=rf_tumor.predict(X_test)' 
 
+Then we print the accuracy of our model :
+- 'print('Accuracy: %.2f' % sklearn.metrics.accuracy_score(y_test, y_pred))'
 
 ## Explain the training dataset <h4>
-The training dataset is ...
+The training dataset is composed of images taken in a lab to see if someone has a tumor or not and if he has one which one it is.
+Each data has one of the 4 differents states of tumor : glioma tumor, meningioma tumor, pituitary tumor and no tumor  
 
 ## Explain the algorithm you choose <h4>
 I chose RandomForestClassifier 
