@@ -37,7 +37,6 @@ I use the hyperparameter 'max_depth' and set it to 40
 
 
 
-
 Motivation
 Build Status
 Code Style
