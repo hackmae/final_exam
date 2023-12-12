@@ -1,5 +1,20 @@
 # final_exam Mae Benaroche (50231642)
 
+##### Explain what you do in your project <h6>  
+
+Explain the training dataset
+
+Explain the algorithm you choose 
+I chose RandomForestClassifier 
+- 'rf_tumor = RandomForestClassifier(max_depth=40)' : creates an instance of the RandomForestClassifier with a hyperparameter max_depth = 40
+
+
+Explain hyper-parameter of the function
+I use the hyperparameter 'max_depth' and set it to 40
+- max_depth controls the maximum depth of each tree in the forest
+
+
+...................
 Import Libraries :
 - 'import sklearn' : to use sklearn library
 - 'from sklearn.ensemble import RandomForestClassifier' : to import RandomForestClassifier class
@@ -13,6 +28,9 @@ Training the dataset :
 
 Making Predictions :
 - 'y_pred=rf_tumor.predict(X_test)' 
+................................
+
+
 
 Motivation
 Build Status
