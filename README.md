@@ -1,15 +1,18 @@
 # final_exam Mae Benaroche (50231642)
 
-## Explain what you do in your project <h2>  
+## Explain what you do in your project <h3>  
+In this project we need to find the best model to fit training data points about tumor by using scikit learn.
 
-Explain the training dataset
 
-Explain the algorithm you choose 
+## Explain the training dataset <h3>
+The training dataset is ...
+
+## Explain the algorithm you choose <h3>
 I chose RandomForestClassifier 
 - 'rf_tumor = RandomForestClassifier(max_depth=40)' : creates an instance of the RandomForestClassifier with a hyperparameter max_depth = 40
 
 
-Explain hyper-parameter of the function
+## Explain hyper-parameter of the function <h3>
 I use the hyperparameter 'max_depth' and set it to 40
 - max_depth controls the maximum depth of each tree in the forest
 
