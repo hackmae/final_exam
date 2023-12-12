@@ -2,6 +2,7 @@
 
 ## Explain what you do in your project <h4>  
 In this project we need to find the best model to fit training data points about tumor by using scikit learn.
+
 First we need to import the libraries, packages we need to use in our project 
 - sklearn, numpy, matplotlib...
 Then we load data points from our external file named 'Training' in the same file as this jupyternotebook file in a folder named 'tumor_dataset'
